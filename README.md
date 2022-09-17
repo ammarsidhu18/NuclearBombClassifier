@@ -108,7 +108,7 @@ The **Random Forest Classifier** had the highest accuracy while handling the imb
   * There were **8** times the `Underwater` deployment type was not labeled correctly; labeled as `Air` 2 times and `Surface` 6 times.
   * Finally, the `Underground` deployment type was labeled incorrectly  once and that was as the `Air` deployment type.
 
-<img width="550" alt="ClassificationReport" src="https://user-images.githubusercontent.com/46492654/190840025-7f06c3d4-4e5c-481d-a8c2-b1ed9fe94521.png">
+  <img width="550" alt="ClassificationReport" src="https://user-images.githubusercontent.com/46492654/190840025-7f06c3d4-4e5c-481d-a8c2-b1ed9fe94521.png">
 
 ![confusion matrix](https://user-images.githubusercontent.com/46492654/190839988-e45dbd3b-c389-44db-bad5-cda5d0cd0ccd.png)
 
