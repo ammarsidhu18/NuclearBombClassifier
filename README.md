@@ -34,4 +34,24 @@ After loading the dataset and inspecting the dataset's features (nuclear bomb ex
   * The most common deployment method of nuclear bombs is underground, and the the least common is underwater.
   * Furthermore, the USA has detonated substantially more nuclear bombs than all other countries in every deployment method with exception to deployment via air; where the USSR has detonated almost two times the nuclear bombs than USA did.
   * India and Pakistan have deployed the least amount of nuclear bombs across all deployment methods when compared to the other nations.
- * Visualized 
+* Visualized upper estimate of explosion power and magnitude of explosion by deployment type and found no linear relationships. However, it seems that stronger nuclear bomb explosions in kilotons have lower bodywave mangnitudes. Additionally, the most explosive nuclear bombs were deployed in the air followed by the surface and then underground. The weakest nuclear bombs by explosion power were deployed underwater.
+* Created univariate data visualizations of all features through plotting:
+  * Bar Plots:
+  
+  * Box Plots:
+  
+* Created bivariate data visualizations comparing continuous and categorical features to target variable:
+  * Distribution Plots of Continuous Features by Target Variable:
+  
+  * Developed correlation matrix of continuous features:
+  
+  * Heatmap of all features:
+  
+* Concluded that from correlation matrix: none of the features have a strong correlation with each except for the yield_upper and yield_lower features, which are partically the same features with different estimations of explosion powers for a given nuclear bomb. Their correlation is strong and in the positive direction.
+* All the other features have correlation coefficients between -0.6 or 0.6 (not inclusive) indicating that none of the features or targets have strong correlations; rather relatively weak correlations between each other.
+* There is **no apparent linear relationship** in the negative or postive direction according the correlation matrix.
+* Intuitively, the method of deployment for the nuclear bomb may have a stronger relationship with the purpose of the nuclear bomb. The explosion power of the bomb will ultimately depend upon the purpose and not how it was deployed.
+
+# Model Building
+
+ 
