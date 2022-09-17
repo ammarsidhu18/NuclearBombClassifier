@@ -110,7 +110,7 @@ The **Random Forest Classifier** had the highest accuracy while handling the imb
 
 ![confusion matrix](https://user-images.githubusercontent.com/46492654/190839988-e45dbd3b-c389-44db-bad5-cda5d0cd0ccd.png)
 
-<img width="214" alt="ClassificationReport" src="https://user-images.githubusercontent.com/46492654/190840025-7f06c3d4-4e5c-481d-a8c2-b1ed9fe94521.png">
+<img width="350" alt="ClassificationReport" src="https://user-images.githubusercontent.com/46492654/190840025-7f06c3d4-4e5c-481d-a8c2-b1ed9fe94521.png">
 
 # Feature Importance
 Which features contribute most to a model predicting/classifying a nuclear deployment type?
